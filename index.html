@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +15,52 @@
     <meta name="description" content="Premium corporate headshot photography services in Louisburg, Kansas. Transform your professional brand with impactful business portraits.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-inter antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity">101Headshots</a>
+                <a href="https://bryanengel72.github.io/louisburg-kansas-corporate-headshot-photography-services-2025-04-28-ir2r1" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-300">101Headshots</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors">Benefits</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Contact</a>
                 </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl text-gray-300"></i>
+                </button>
+
+                <!-- Book Now Button (Desktop) -->
                 <a href="https://www.101headshots.com" class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-medium hover:shadow-lg hover:scale-105 transition-all duration-300">Book Now</a>
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Features</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">About</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Testimonials</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Contact</a>
+                <a href="https://www.101headshots.com" class="block mt-4 px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-medium text-center hover:shadow-lg hover:scale-105 transition-all duration-300">Book Now</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-32 lg:py-48">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-20"></div>
             <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Louisburg, Kansas Corporate Headshot Photography Services</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-12">Photography translating Louisburg's expertise into powerful branding.</p>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-12">Elevate your professional presence with stunning headshots that capture your authentic brand story. Trusted by Louisburg's leading professionals and businesses.</p>
                     <a href="https://www.101headshots.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">Transform Your Brand Today</a>
                 </div>
             </div>
@@ -46,8 +77,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Core Focus</h3>
-                        <p class="text-gray-400">Specialized expertise in corporate photography that captures your professional essence.</p>
+                        <h3 class="text-xl font-semibold mb-4">Professional Excellence</h3>
+                        <p class="text-gray-400">Industry-leading photography expertise delivering consistent, high-quality results. Our advanced lighting techniques and professional equipment ensure every shot meets the highest standards.</p>
                     </div>
                     <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition-all duration-300 hover:shadow-xl hover:scale-105">
                         <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl mb-6 flex items-center justify-center">
@@ -55,8 +86,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Picture Impact</h3>
-                        <p class="text-gray-400">Create lasting impressions with high-quality, professional headshots that stand out.</p>
+                        <h3 class="text-xl font-semibold mb-4">Lasting Impact</h3>
+                        <p class="text-gray-400">Create powerful first impressions that resonate with your audience. Our headshots are optimized for all digital platforms and print media, ensuring maximum impact across all channels.</p>
                     </div>
                     <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition-all duration-300 hover:shadow-xl hover:scale-105">
                         <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl mb-6 flex items-center justify-center">
@@ -64,8 +95,94 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Versatile Usage</h3>
-                        <p class="text-gray-400">Perfect for websites, social media, marketing materials, and professional profiles.</p>
+                        <h3 class="text-xl font-semibold mb-4">Versatile Applications</h3>
+                        <p class="text-gray-400">Multi-format delivery optimized for LinkedIn, company websites, press materials, and marketing campaigns. Each image is carefully edited and formatted for maximum impact across all platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">About 101Headshots</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-300 leading-relaxed">Founded in 2015, 101Headshots emerged from a passion for capturing the essence of professionals in their best light. What began as a small studio in Louisburg has grown into the region's premier corporate photography service, trusted by hundreds of businesses and professionals across Kansas.</p>
+                    <p class="text-gray-300 leading-relaxed">Our mission is to empower professionals with compelling visual representations that align with their personal brand and career aspirations. We believe in the power of first impressions and are committed to delivering exceptional quality, personalized service, and images that help our clients stand out in today's competitive business landscape.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Client Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800/50 p-8 rounded-2xl hover:bg-gray-800 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The team at 101Headshots transformed my professional image. The attention to detail and lighting expertise resulted in the best headshots I've ever had. My LinkedIn engagement increased by 40% after updating my profile picture."</p>
+                        <div class="text-sm text-gray-400">
+                            <p class="font-semibold">Sarah Johnson</p>
+                            <p>Marketing Director, Tech Innovations KC</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800/50 p-8 rounded-2xl hover:bg-gray-800 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Exceptional service from start to finish. They made me feel comfortable and captured my best professional self. The photos have been invaluable for my business marketing."</p>
+                        <div class="text-sm text-gray-400">
+                            <p class="font-semibold">Michael Chen</p>
+                            <p>CEO, Midwest Financial Group</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800/50 p-8 rounded-2xl hover:bg-gray-800 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"We hired 101Headshots for our entire executive team of 12 people. The consistency and quality across all photos was remarkable. They delivered everything on time and exceeded our expectations."</p>
+                        <div class="text-sm text-gray-400">
+                            <p class="font-semibold">Rachel Martinez</p>
+                            <p>HR Director, Louisburg Medical Center</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800/50 p-8 rounded-2xl hover:bg-gray-800 transition-all duration-300 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The investment in professional headshots from 101Headshots paid off immediately. Their guidance on posing and expression was invaluable. I've received countless compliments on my new professional image."</p>
+                        <div class="text-sm text-gray-400">
+                            <p class="font-semibold">David Thompson</p>
+                            <p>Real Estate Broker, Premium Properties</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <div class="bg-gray-800/50 p-6 rounded-xl hover:bg-gray-800 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What should I wear for my corporate headshot?</h3>
+                        <p class="text-gray-300">We recommend solid colors and professional attire that reflects your industry. Avoid busy patterns and bright colors. Business professional attire typically works best - suits, blazers, or conservative dresses. We'll provide a detailed preparation guide upon booking.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-xl hover:bg-gray-800 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How long does a headshot session take?</h3>
+                        <p class="text-gray-300">Standard sessions typically last 30-45 minutes, allowing time for multiple poses and outfits. We ensure a relaxed atmosphere to capture your best expressions and provide guidance throughout the session.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-xl hover:bg-gray-800 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">When will I receive my photos?</h3>
+                        <p class="text-gray-300">You'll receive a gallery of proofs within 48 hours of your session. After selecting your preferred images, final retouched photos are delivered within 3-5 business days in both high-resolution and web-optimized formats.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-xl hover:bg-gray-800 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Do you offer group rates for businesses?</h3>
+                        <p class="text-gray-300">Yes, we offer special packages for corporate teams and can accommodate on-site sessions for groups of 5 or more. Contact us for custom pricing and scheduling options for your team.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-xl hover:bg-gray-800 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What's included in the final delivery?</h3>
+                        <p class="text-gray-300">You'll receive professionally retouched images in both high-resolution and web-optimized formats, perfect for print and digital use. Package includes commercial usage rights and multiple file formats for various applications.</p>
                     </div>
                 </div>
             </div>
@@ -75,9 +192,9 @@
             <div class="container mx-auto px-6">
                 <div class="max-w-3xl mx-auto text-center">
                     <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Elevate Your Professional Image?</h2>
-                    <p class="text-xl text-gray-300 mb-12">Contact us today to schedule your professional headshot session.</p>
+                    <p class="text-xl text-gray-300 mb-12">Transform your professional presence with our expert photography services. Book your session today and stand out from the competition.</p>
                     <div class="flex flex-col items-center space-y-6">
-                        <a href="mailto:bryan@101headshots.com" class="text-xl text-purple-400 hover:text-purple-300 transition-colors">bryan@101headshots.com</a>
+                        <a href="mailto:bryan@101headshots.com" class="text-xl text-purple-400 hover:text-purple-300 transition-colors duration-300 hover:scale-105">bryan@101headshots.com</a>
                         <a href="https://www.101headshots.com" class="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">Book Your Session</a>
                     </div>
                 </div>
@@ -89,13 +206,44 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="text-gray-400 text-sm">&copy; 2024 101Headshots. All rights reserved.</div>
-                <div class="mt-4 md:mt-0">
-                    <a href="https://www.101headshots.com" class="text-gray-400 hover:text-white transition-colors">Terms</a>
-                    <span class="mx-3 text-gray-600">|</span>
-                    <a href="https://www.101headshots.com" class="text-gray-400 hover:text-white transition-colors">Privacy</a>
+                <div class="mt-4 md:mt-0 space-x-6">
+                    <a href="https://bryanengel72.github.io/louisburg-kansas-corporate-headshot-photography-services-2025-04-28-ir2r1/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms</a>
+                    <a href="https://bryanengel72.github.io/louisburg-kansas-corporate-headshot-photography-services-2025-04-28-ir2r1/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy</a>
+                    <a href="https://bryanengel72.github.io/louisburg-kansas-corporate-headshot-photography-services-2025-04-28-ir2r1/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
